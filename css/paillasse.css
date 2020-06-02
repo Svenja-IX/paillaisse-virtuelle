@@ -1,0 +1,26 @@
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#paillasse{
+    background-image: url("../img/imgPaillasse.jpg");
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#sortir{
+    width: 10%;
+    height: 10%;
+}
+figcaption{
+    text-align: center;
+}
+#gate{
+    width: 60%;
+    height: 75%;
+    margin: 10px;
+}
