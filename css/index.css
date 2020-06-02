@@ -50,6 +50,9 @@ li{
     width: 87.5%;
     height: 40%;
     border: 1px solid #41046f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 p{
     padding-left: 10px;
@@ -57,10 +60,23 @@ p{
     height: 10%;
     border-bottom: 1px solid #41046f;
 }
+#citation{
+    border: none;
+    text-align: justify;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
 img{
     width: 30%;
     height: 30%;
     padding-left: 10px;
+}
+#header{
+    width: 100%;
+    height: 100%;
 }
 .info{
     padding-left: 10px;
@@ -74,7 +90,7 @@ img{
     width: 95%;
     height: 10%;
 }
-button{
+.preparer{
     width: 16%;
     height: 90%;
     border: 1px solid #000;
