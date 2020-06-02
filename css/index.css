@@ -1,0 +1,81 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    background-image: url("../img/apprentis_pas_sages_bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;   
+}
+nav{
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+section{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    width: 99%;
+    height: 99%;
+    padding: 0;
+    border: 1px solid #41046f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: content-box;
+    margin: 10px;
+    border-radius: 20px;
+}
+li{
+    width: 42.5%;
+    height: 45%;
+    list-style-type: none;
+    border-radius: 30px;
+    border: 1px solid #41046f;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#presentation{
+    width: 87.5%;
+    height: 40%;
+    border: 1px solid #41046f;
+}
+p{
+    padding-left: 10px;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid #41046f;
+}
+img{
+    width: 30%;
+    height: 30%;
+    padding-left: 10px;
+}
+.info{
+    padding-left: 10px;
+    width: 100%;
+    height: 25%;
+    border: none;
+}
+.btn-a{
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    height: 10%;
+}
+button{
+    width: 16%;
+    height: 90%;
+    border: 1px solid #000;
+}
