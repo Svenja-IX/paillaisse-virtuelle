@@ -8,28 +8,58 @@
     justify-content: center;
 }
 .top{
-    width: 90%;
-    height: 33%;
-    border: 1px solid #000;
+    width: 89%;
+    height: 34%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -3%;
+    background-color: rgba(20, 20, 20, 0.5);
+}
+.vide{
+    width: 80%;
+    height: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+.centre{
+    width: 89%;
+    height: 14%;
+    margin-left: -3%;
     display: flex;
     flex-wrap: wrap;
 }
-.vide{
-    width: 90%;
-    height: 18%;
-    border: 1px solid #000;
-}
-.centre{
-    width: 90%;
-    height: 14%;
-    border: 1px solid #000;
-}
 .bas{
-    width: 90%;
+    width: 95%;
     height: 34%;
-    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .placard{
     width: 33.3%;
+}
+.planTravail{
+    width: 85%;
+    background-color: rgba(20, 20, 20, 0.7);
+}
+.lavabo{
+    width: 15%;
+    background-color: rgba(20, 20, 20, 0.7);
+}
+.prise{
+    width: 13%;
+    background-color: rgba(20, 20, 20, 0.7);
+}
+.placard-1{
+    width: 20%;
+    background-color: rgba(20, 20, 20, 0.7);
+}
+.poubelle{
+    width: 20%;
+    background-color: rgba(20, 20, 20, 0.7);
 }
