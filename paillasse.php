@@ -4,20 +4,13 @@
 ?>
 
 <body id="wrapper">
-
-
-
-    <div id="paillasse">
-        <div id="placard">
-            <img id="b" class="draggable" src="img/bottle_test.png" alt="">
-        </div>
-        
-        <figure id="sortir">
-                <a href="index.php"><img id="gate" src="img/gate.png" alt=""></a>
-                <figcaption>Sortir</figcaption>
-        </figure>
+    <div class="top">
+        <div class="placard"></div>
+        <div class="placard"></div>
+        <div class="placard"></div>
     </div>
-
-    <script src= "scripts/reac.js"></script>
+    <div class="vide"></div class="">
+    <div class="centre"></div>
+    <div class="bas"></div>
 </body>
 </html>
