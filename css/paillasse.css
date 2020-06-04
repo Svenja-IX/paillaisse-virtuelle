@@ -1,4 +1,4 @@
-#wrapper{
+#wrapper {
     background-image: url("../img/imgPaillasse.jpg");
     background-position: center;
     width: 100%;
@@ -7,29 +7,41 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.top{
+
+.top {
     width: 90%;
     height: 33%;
     border: 1px solid #000;
     display: flex;
     flex-wrap: wrap;
 }
-.vide{
+
+.vide {
     width: 90%;
     height: 18%;
     border: 1px solid #000;
 }
-.centre{
+
+.centre {
     width: 90%;
     height: 14%;
     border: 1px solid #000;
 }
-.bas{
+
+.bas {
     width: 90%;
     height: 34%;
     border: 1px solid #000;
 }
 
-.placard{
+.placard {
     width: 33.3%;
+}
+
+.drag-drop {
+    width: 200px;
+    height: 100px;
+    /* border: 2px solid #8181F7;
+    background: #BDBDBD; */
+    padding: 10px;
 }
