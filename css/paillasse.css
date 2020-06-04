@@ -70,3 +70,11 @@
     width: 20%;
     background-color: rgba(20, 20, 20, 0.7);
 }
+
+.drag-drop {
+    width: 200px;
+    height: 100px;
+    /* border: 2px solid #8181F7;
+    background: #BDBDBD; */
+    padding: 10px;
+}
