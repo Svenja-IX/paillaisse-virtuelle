@@ -3,7 +3,8 @@
     require ('include/header.php');
 ?>
 
-<body id="wrapper">
+<body>
+    <main id="wrapper">
     <div class="top">
         <div class="placard">
         <div class="drag" class="ui-widget-content">
@@ -43,6 +44,7 @@
         <div class="poubelle"></div>
         <div class="placard-1"></div>
     </div>
+    </main>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="scripts/script.js"></script>
