@@ -1,6 +1,14 @@
-  $(function() {
-    $('.drag').draggable();
+// Permet de les bouger indépendamment les uns des autres
+$('.dragLeft').each(function() {
+	$(this).draggable();
   });
+
+// Changement de l'opacité sur click (pour faire comme si ils étaient derrière la vitre)
+$('.dragLeft').on( "click", function() {
+	$(this).find('img').css({
+		"opacity": "100"
+	});
+});				
 // /**
 //  * Création d'une aide visuelle pendant le déplacement d'un élément
 //  * @return {[type]} [description]
@@ -15,6 +23,8 @@
 //         }
 //     });
 // }
+
+// Empêche le zoom
 $(document).ready(function(){
 	$(document).keydown(function(event) {
 	    	    if (event.ctrlKey==true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109'  || event.which == '187'  || event.which == '189'  ) ) {

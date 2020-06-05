@@ -7,8 +7,17 @@
     <main id="wrapper">
     <div class="top">
         <div class="placard">
-        <div class="drag" class="ui-widget-content">
+        <div class="dragLeft" class="ui-widget-content">
             <img src="img/L.png" alt="">
+        </div>
+        <div class="dragLeft" class="ui-widget-content">
+            <img src="img/O.png" alt="">
+        </div>
+        <div class="dragLeft" class="ui-widget-content">
+            <img src="img/R.png" alt="">
+        </div>
+        <div class="dragLeft" class="ui-widget-content">
+            <img src="img/B.png" alt="">
         </div>
         </div>
         <div class="placard"></div>
