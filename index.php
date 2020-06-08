@@ -28,7 +28,7 @@
 
                 <li>
                 <p>Acceder à la paillasse</p>
-                    <img src="img/imgPaillasse.jpg" alt="">
+                    <img src="img/imgPaillasse" alt="">
                     <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore id quidem iste architecto natus, reiciendis corporis minima, eos nostrum aperiam, aspernatur explicabo hic. Reiciendis aspernatur, dolores rem earum in maiores!</p>
                     <div class="btn-a">
                     <button><a href="paillasse.php">Acceder</a></button>
