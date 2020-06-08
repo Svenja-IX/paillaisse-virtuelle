@@ -19,6 +19,9 @@
         <div class="dragLeft" class="ui-widget-content">
             <img src="img/B.png" alt="">
         </div>
+        <div class="dragLeft" class="ui-widget-content">
+            <img src="img/pissette.png" alt="">
+        </div>
         </div>
         <div class="placard"></div>
         <div class="placard"></div>
