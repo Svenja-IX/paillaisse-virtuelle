@@ -38,6 +38,10 @@
             <img src="img/h2o.png" alt="">
         </div>
 
+        <div class="dragLeft" class="ui-widget-content">
+            <img src="img/bec_vide.png" alt="">
+        </div>
+
 
         </div>
         <div class="placard"></div>
