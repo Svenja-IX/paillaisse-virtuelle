@@ -27,7 +27,15 @@
         </div>
 
         <div class="dragLeft" class="ui-widget-content">
-            <img src="img/pipette_jaugee.png" alt="">
+            <img src="img/pipette_jauge.png" alt="">
+        </div>
+
+        <div class="dragLeft" class="ui-widget-content">
+            <img src="img/soude.png" alt="">
+        </div>
+
+        <div class="dragLeft" class="ui-widget-content">
+            <img src="img/h2o.png" alt="">
         </div>
 
 
