@@ -5,12 +5,15 @@
 
 <body>
     <main id="wrapper">
+    <!-- <div draggable="true" ondragstart="dragstart_handler(event)" class="ui-widget-content" id="pro">
+        Pro-pipette
+        </div>
+
+    
     <div class="top">
         <div class="placard">
 
-        <div class="dragLeft" class="ui-widget-content" id="pro">
-        Pro-pipette
-        </div>
+
 
         <div class="dragLeft" class="ui-widget-content" id="pipette">
         Pipette
@@ -30,7 +33,7 @@
 
         <div class="dragLeft" class="ui-widget-content" id="solution-mere">
         solution mère
-        </div>
+        </div> -->
 
 
         </div>
@@ -55,7 +58,8 @@
 
     <div class="centre">
         <div class="planTravail">
-        
+            <!-- <div id="p1"  draggable="true" ondragstart="dragstart_handler(event)">Cet élément peut être déplacé.</div>  -->
+            <div id="target" class="coco" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">Zone pour le dépôt</div>
         </div>
         <div class="lavabo"></div>
     </div>
